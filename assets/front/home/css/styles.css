@@ -1,0 +1,3278 @@
+.btn {
+	padding:5px 10px;
+	overflow:visible;
+	cursor:pointer;
+	display:inline-block
+}
+.spc {
+ display: inline-block;
+line-height: 50px !important;
+width: 40px;
+text-align: center;
+
+
+float: left;
+font-size: 30px !important;
+border-radius: 500px;
+background-color: #fff;
+margin-right: 10px;
+color:#20b1aa
+
+}
+
+.navtext { padding-left:50px}
+.btn:hover {
+	text-decoration:none
+}
+.btn-facebook {
+	font-size:11px;
+	font-weight:bold;
+	border:1px solid #666
+}
+.btn-facebook:hover {
+	text-decoration:none
+}
+.btn.disabled {
+	background:#fff;
+	color:#ccc;
+	border:1px solid #ccc;
+	cursor:default
+}
+.btn--grey {
+	border:1px solid #ccc;
+	background-color:#f5f5f5;
+	color:#999;
+	font-weight:normal;
+	padding:4px 9px 3px
+}
+.rounded {
+	border-radius:5px
+}
+.arrow {
+	background-position:4px 6px
+}
+.ico {
+	background-image:url(../../../../asset3.zankyou.com/img/css/sprite/sprite_ico45e1.png?v20150518);
+	background-repeat:no-repeat;
+	float:left
+}
+.ico-nf {
+	background-image:url(https://asset3.zankyou.com/img/css/sprite/sprite_ico.png?v20150518);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle
+}
+.ico-user {
+	width:9px;
+	height:11px;
+	background-position:0 0
+}
+.login-box:hover .ico-user {
+	background-position:-9px 0
+}
+.ico-world {
+	width:26px;
+	height:31px;
+	background-position:-21px 0;
+	margin-right:5px;
+	margin-top:-5px
+}
+.ico-flower-blue {
+	width:13px;
+	height:14px;
+	background-position:-47px 0;
+	margin-right:8px;
+	margin-top:2px
+}
+.ico-flower-pink {
+	width:19px;
+	height:18px;
+	background-position:-104px -102px;
+	margin-right:8px
+}
+.ico-ok {
+	width:18px;
+	height:18px;
+	background-position:-60px 0
+}
+.ico-wrong {
+	width:18px;
+	height:19px;
+	background-position:-78px 0
+}
+.ico-facebook {
+	width:14px;
+	height:14px;
+	background-position:-96px 0;
+	margin-right:8px
+}
+.ico-france2 {
+	width:65px;
+	height:23px;
+	background-position:-111px 0
+}
+.ico-comment-b {
+	width:22px;
+	height:20px;
+	background-position:-175px 0
+}
+a:hover .ico-comment-b, span:hover .ico-comment-b {
+	background-position:-197px 0
+}
+.ico-lommo-b {
+	width:25px;
+	height:19px;
+	background-position:-220px 0;
+	margin-right:8px
+}
+.ico-lommo-bs {
+	width:21px;
+	height:16px;
+	background-position:-268px 0;
+	margin-right:3px;
+	margin-top:3px
+}
+.ico-video-b {
+	width:23px;
+	height:28px;
+	background-position:-245px 0;
+	margin-top:-5px;
+	margin-right:8px
+}
+.switcher {
+	width:38px;
+	height:16px;
+	background-position:-63px -235px
+}
+.switcher.active {
+	background-position:-63px -251px
+}
+.ico-clock-b {
+	width:25px;
+	height:25px;
+	background-position:-117px -249px
+}
+.ico-money {
+	width:14px;
+	height:24px;
+	background-position:-142px -249px
+}
+.ico-mobile {
+	width:17px;
+	height:26px;
+	background-position:-156px -249px
+}
+.ico-table-b {
+	width:31px;
+	height:17px;
+	background-position:-173px -249px
+}
+.ico-gift-b {
+	width:24px;
+	height:26px;
+	background-position:-204px -249px
+}
+.ico-laptop {
+	width:24px;
+	height:17px;
+	background-position:-228px -249px
+}
+.ico-phone-b {
+	width:9px;
+	height:16px;
+	background-position:-252px -249px
+}
+.ico-widget-time {
+	width:12px;
+	height:16px;
+	background-position:-473px -32px
+}
+.ico-info-b {
+	width:15px;
+	height:15px;
+	background-position:-442px -33px
+}
+.ico-myzk-honeymoon {
+	width:37px;
+	height:36px;
+	background-position:-261px -249px
+}
+.ico-myzk-bestrates {
+	width:33px;
+	height:36px;
+	background-position:-298px -249px
+}
+.ico-myzk-premium {
+	width:34px;
+	height:36px;
+	background-position:-331px -249px
+}
+.ico-guestlist-b {
+	width:19px;
+	height:18px;
+	background-position:-371px -249px
+}
+.ico-tw-b {
+	width:16px;
+	height:16px;
+	background-position:-421px -249px
+}
+.ico-fb-b {
+	width:16px;
+	height:16px;
+	background-position:-393px -249px
+}
+.ico-home-b {
+	background-position:-440px -249px;
+	width:15px;
+	height:14px
+}
+.login:hover .ico-home-b {
+	background-position:-456px -249px
+}
+.logo-sticky {
+	background-position:-480px -249px;
+	width:77px;
+	height:17px
+}
+.logo-5050 {
+	background-position:-480px -232px;
+	width:77px;
+	height:17px
+}
+.sprite-flags-min {
+	width:16px;
+	height:11px;
+	float:left;
+	overflow:hidden;
+	background:url(https://asset2.zankyou.com/img/css/sprite/sprite_flags_min.png?v=1401350712847);
+	background-repeat:no-repeat
+}
+.sprite-flags-min.es {
+	background-position:0 0
+}
+.sprite-flags-min.at {
+	background-position:-16px 0
+}
+.sprite-flags-min.us {
+	background-position:-32px 0
+}
+.sprite-flags-min.ar {
+	background-position:-48px 0
+}
+.sprite-flags-min.ec {
+	background-position:-64px 0
+}
+.sprite-flags-min.de {
+	background-position:-80px 0
+}
+.sprite-flags-min.fr {
+	background-position:-96px 0
+}
+.sprite-flags-min.uk {
+	background-position:-112px 0
+}
+.sprite-flags-min.pe {
+	background-position:-128px 0
+}
+.sprite-flags-min.ve {
+	background-position:-144px 0
+}
+.sprite-flags-min.pl {
+	background-position:-160px 0
+}
+.sprite-flags-min.co {
+	background-position:0 -11px
+}
+.sprite-flags-min.cl {
+	background-position:-16px -11px
+}
+.sprite-flags-min.br {
+	background-position:-32px -11px
+}
+.sprite-flags-min.be {
+	background-position:-48px -11px
+}
+.sprite-flags-min.pt {
+	background-position:-64px -11px
+}
+.sprite-flags-min.mx {
+	background-position:-80px -11px
+}
+.sprite-flags-min.it {
+	background-position:-96px -11px
+}
+.sprite-flags-min.ie {
+	background-position:-112px -11px
+}
+.sprite-flags-min.ch {
+	background-position:-128px -11px
+}
+.sprite-flags-min.am {
+	background-position:-144px -11px
+}
+.sprite-flags-min.nl {
+	background-position:-160px -11px
+}
+.sprite-flags-min.ru {
+	background-position:-176px 0
+}
+.sprite-flags-24 {
+	width:24px;
+	height:24px;
+	margin-right:8px;
+	float:left;
+	overflow:hidden;
+	background:url(https://asset2.zankyou.com/img/css/sprite/sprite_flags_24.png?v3);
+	background-repeat:no-repeat
+}
+.sprite-flags-24.am {
+	background-position:0 -3px
+}
+.sprite-flags-24.ar {
+	background-position:-24px -3px
+}
+.sprite-flags-24.at {
+	background-position:-48px -3px
+}
+.sprite-flags-24.be {
+	background-position:-72px -3px
+}
+.sprite-flags-24.br {
+	background-position:-96px -3px
+}
+.sprite-flags-24.ch {
+	background-position:-120px -3px
+}
+.sprite-flags-24.cl {
+	background-position:-144px -3px
+}
+.sprite-flags-24.co {
+	background-position:-168px -3px
+}
+.sprite-flags-24.de {
+	background-position:-192px -3px
+}
+.sprite-flags-24.ec {
+	background-position:-216px -3px
+}
+.sprite-flags-24.es {
+	background-position:-240px -3px
+}
+.sprite-flags-24.fr {
+	background-position:-264px -3px
+}
+.sprite-flags-24.uk {
+	background-position:-288px -3px
+}
+.sprite-flags-24.ie {
+	background-position:-312px -3px
+}
+.sprite-flags-24.it {
+	background-position:-336px -3px
+}
+.sprite-flags-24.mx {
+	background-position:-360px -3px
+}
+.sprite-flags-24.pe {
+	background-position:-384px -3px
+}
+.sprite-flags-24.pt {
+	background-position:-408px -3px
+}
+.sprite-flags-24.us {
+	background-position:-432px -3px
+}
+.sprite-flags-24.ve {
+	background-position:-456px -3px
+}
+.sprite-flags-24.pl {
+	background-position:-480px -3px
+}
+.sprite-flags-24.nl {
+	background-position:-504px -3px
+}
+.sprite-flags-24.eu {
+	background-position:-528px -3px
+}
+.sprite-flags-24.ru {
+	background-position:-552px -3px
+}
+.sprite-flags-48 {
+	width:48px;
+	height:36px;
+	float:left;
+	overflow:hidden;
+	background:url(https://asset3.zankyou.com/img/css/sprite/sprite_flags_48_new.png?v=1401350712847);
+	background-repeat:no-repeat
+}
+.sprite-flags-48.us {
+	background-position:0 0
+}
+.sprite-flags-48.fr {
+	background-position:0 -36px
+}
+.sprite-flags-48.es {
+	background-position:0 -72px
+}
+.sprite-flags-48.it {
+	background-position:0 -108px
+}
+.sprite-flags-48.de {
+	background-position:0 -144px
+}
+.sprite-flags-48.pt {
+	background-position:0 -180px
+}
+.sprite-flags-48.mx {
+	background-position:0 -216px
+}
+.sprite-flags-48.uk {
+	background-position:0 -252px
+}
+.sprite-flags-48.br {
+	background-position:0 -288px
+}
+.sprite-flags-48.be {
+	background-position:0 -324px
+}
+.sprite-flags-48.po {
+	background-position:0 -360px
+}
+.sprite-flags-48.ie {
+	background-position:-48px 0
+}
+.sprite-flags-48.at {
+	background-position:-48px -36px
+}
+.sprite-flags-48.ar {
+	background-position:-48px -72px
+}
+.sprite-flags-48.ve {
+	background-position:-48px -108px
+}
+.sprite-flags-48.cl {
+	background-position:-48px -144px
+}
+.sprite-flags-48.co {
+	background-position:-48px -180px
+}
+.sprite-flags-48.ec {
+	background-position:-48px -216px
+}
+.sprite-flags-48.ch {
+	background-position:-48px -252px
+}
+.sprite-flags-48.pe {
+	background-position:-48px -288px
+}
+.sprite-flags-48.am {
+	background-position:-48px -324px
+}
+.sprite-flags-48.nl {
+	background-position:-48px -360px
+}
+.sprite-flags-48.ru {
+	background-position:0 -396px
+}
+.dontlike-it, .like-it {
+	width:17px;
+	height:19px;
+	margin-right:7px
+}
+.like-it {
+	background-position:0 -33px
+}
+.dontlike-it {
+	background-position:-17px -33px
+}
+.vote-number:hover .like-it, .active .like-it {
+	background-position:0 -52px
+}
+.vote-number:hover .dontlike-it, .active .dontlike-it {
+	background-position:-17px -52px
+}
+.ico-thread {
+	background-position:-35px -33px;
+	width:28px;
+	height:23px
+}
+.ico-home {
+	background-position:-203px -36px;
+	width:15px;
+	height:13px
+}
+.ico-envelope {
+	background-position:-49px -56px;
+	width:17px;
+	height:13px
+}
+.ico-envelope-p {
+	background-position:-110px -24px;
+	margin-right:6px;
+	width:31px;
+	height:12px
+}
+.ico-thumb {
+	background-position:-333px -33px;
+	margin-right:7px;
+	width:31px;
+	height:15px
+}
+.ico-internationality {
+	background-position:-364px -33px;
+	margin-right:6px;
+	width:31px;
+	height:18px
+}
+.ico-plane {
+	background-position:-238px -33px;
+	margin-right:5px;
+	width:31px;
+	height:19px
+}
+.ico-sheet-b {
+	background-position:-272px -33px;
+	margin-right:8px;
+	width:31px;
+	height:15px
+}
+.ico-tag-b {
+	background-position:-394px -33px;
+	margin-right:6px;
+	width:31px;
+	height:15px
+}
+.ico-money-b {
+	background-position:-306px -33px;
+	margin-right:6px;
+	width:31px;
+	height:15px
+}
+.ico-alert-info {
+	background-position:-443px -140px;
+	width:67px;
+	height:67px;
+	margin-bottom:5px
+}
+.ico-alert-ok {
+	background-position:-308px -140px;
+	width:67px;
+	height:67px;
+	margin-bottom:5px
+}
+.ico-alert-error {
+	background-position:-375px -140px;
+	width:67px;
+	height:67px;
+	margin-bottom:5px
+}
+.ico-cuore {
+	background-position:-47px -21px;
+	margin-right:8px;
+	width:11px;
+	height:10px;
+	margin-top:3px
+}
+.ico-cuore-break {
+	background-position:-59px -21px;
+	margin-right:8px;
+	width:11px;
+	height:10px;
+	margin-top:3px
+}
+.ico-search {
+	background-position:0 -71px;
+	width:35px;
+	height:35px;
+	margin-right:10px
+}
+.add-units-u {
+	width:8px;
+	height:4px;
+	background-position:-40px -71px
+}
+.add-units-d {
+	width:8px;
+	height:4px;
+	background-position:-40px -87px
+}
+.ico-house-add {
+	background-position:-124px -104px;
+	width:19px;
+	height:16px;
+	margin-right:8px
+}
+.ico-visa {
+	background-position:-157px -94px;
+	width:41px;
+	height:26px
+}
+.ico-mastercard {
+	background-position:-157px -68px;
+	width:42px;
+	height:26px
+}
+.ico-star-grey {
+	width:37px;
+	height:29px;
+	background-position:-206px -68px;
+	padding:8px 0 0 0;
+	text-align:center
+}
+.ico-star-green {
+	width:37px;
+	height:29px;
+	background-position:-243px -68px;
+	padding:8px 0 0 0;
+	text-align:center
+}
+.ico-star-red {
+	width:37px;
+	height:29px;
+	background-position:-280px -68px;
+	padding:8px 0 0 0;
+	text-align:center
+}
+.ico-video {
+	width:14px;
+	height:11px;
+	background-position:0 -110px;
+	margin-right:5px;
+	margin-top:3px
+}
+.active .ico-video {
+	background-position:0 -121px
+}
+.ico-song {
+	width:16px;
+	height:14px;
+	background-position:-14px -110px;
+	margin-right:5px;
+	margin-top:2px
+}
+.active .ico-song {
+	background-position:-14px -124px
+}
+.ico-rate-on {
+	width:13px;
+	height:13px;
+	background-position:-30px -110px;
+	margin-right:2px
+}
+.ico-rate-off {
+	width:13px;
+	height:13px;
+	background-position:-30px -123px;
+	margin-right:2px
+}
+.documentdown {
+	width:19px;
+	height:24px;
+	background-position:-43px -110px;
+	margin-right:5px;
+	float:none;
+	vertical-align:middle;
+	display:inline-block
+}
+.social-lk {
+	width:20px;
+	height:20px;
+	background-position:-62px -120px
+}
+.social-fb {
+	width:18px;
+	height:20px;
+	background-position:-82px -120px
+}
+.ico-make-gift {
+	width:16px;
+	height:16px;
+	background-position:-101px -122px;
+	margin-right:5px
+}
+.select-to-left {
+	width:12px;
+	height:24px;
+	background-position:-260px -106px
+}
+.select-to-right {
+	width:12px;
+	height:24px;
+	background-position:-272px -106px
+}
+.ico-twitter-author {
+	width:68px;
+	height:53px;
+	background-position:-36px -140px
+}
+.ico-rss-author {
+	width:68px;
+	height:53px;
+	background-position:-172px -140px
+}
+.ico-mail-author {
+	width:68px;
+	height:53px;
+	background-position:-104px -140px
+}
+.ico-gplus-author {
+	width:68px;
+	height:53px;
+	background-position:-240px -140px
+}
+.circle-bullet-l {
+	width:21px;
+	height:21px;
+	background-position:-36px -193px
+}
+.circle-bullet-r {
+	width:21px;
+	height:21px;
+	background-position:-57px -193px
+}
+.tr-bullet-l {
+	width:12px;
+	height:20px;
+	background-position:-36px -214px
+}
+.tr-bullet-r {
+	width:12px;
+	height:20px;
+	background-position:-48px -214px
+}
+.arrow-alpha-w {
+	width:12px;
+	height:6px;
+	background-position:-60px -214px
+}
+.ico-home-g {
+	width:26px;
+	height:23px;
+	background-position:-36px -234px
+}
+.ico-heart-g {
+	width:15px;
+	height:13px;
+	background-position:-78px -193px
+}
+.next-item {
+	width:18px;
+	height:29px;
+	background-position:-116px -193px;
+	cursor:pointer
+}
+.prev-item {
+	width:18px;
+	height:29px;
+	background-position:-98px -193px;
+	cursor:pointer
+}
+.next-item-s {
+	width:16px;
+	height:26px;
+	background-position:-76px -274px;
+	cursor:pointer
+}
+.prev-item-s {
+	width:16px;
+	height:26px;
+	background-position:-60px -274px;
+	cursor:pointer
+}
+.next-item-d {
+	width:16px;
+	height:44px;
+	background-position:-347px -96px;
+	cursor:pointer
+}
+.prev-item-d {
+	width:16px;
+	height:44px;
+	background-position:-331px -96px;
+	cursor:pointer
+}
+.ico-play-g {
+	width:24px;
+	height:16px;
+	background-position:-134px -193px
+}
+.ico-play-gb {
+	width:60px;
+	height:40px;
+	background-position:-158px -193px
+}
+.ico-play-gm {
+	width:46px;
+	height:30px;
+	background-position:-245px -193px
+}
+.ico-logof {
+	width:27px;
+	height:28px;
+	background-position:-218px -193px
+}
+.ico-logofm {
+	width:16px;
+	height:17px;
+	background-position:-292px -221px
+}
+.ico-couple {
+	width:35px;
+	height:32px;
+	background-position:0 -240px;
+	margin-right:5px
+}
+.ico-tag-green {
+	width:18px;
+	height:17px;
+	background-position:0 -270px;
+	margin-right:5px
+}
+.ico-playlist {
+	width:26px;
+	height:21px;
+	background-position:-288px 0
+}
+.ico-tab-message {
+	width:27px;
+	height:28px;
+	background-position:-365px -275px
+}
+.ico-tab-song {
+	width:27px;
+	height:28px;
+	background-position:-392px -272px
+}
+.ico-tab-video {
+	width:27px;
+	height:28px;
+	background-position:-419px -273px
+}
+.ico-menu {
+	width:18px;
+	height:13px;
+	background-position:-447px -273px
+}
+.ico-show-down {
+	width:14px;
+	height:10px;
+	background-position:-447px -290px
+}
+.ico-login-white {
+	width:13px;
+	height:13px;
+	background-position:-466px -273px
+}
+.ico-hd {
+	width:20px;
+	height:14px;
+	background-position:-519px -140px
+}
+.ico-hd--up {
+	margin-top:-12px
+}
+.ico-action {
+	background-image:url(https://asset2.zankyou.com/img/css/sprite/sprite_ico_action.png?v=1401350712847);
+	background-repeat:no-repeat;
+	float:left;
+	height:16px;
+	width:16px;
+	margin-right:5px;
+	font-size:11px
+}
+.ico-action-nf {
+	background-image:url(https://asset2.zankyou.com/img/css/sprite/sprite_ico_action.png?v=1401350712847);
+	background-repeat:no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+	height:16px;
+	width:16px;
+	margin-right:4px
+}
+.page-edit {
+	background-position:0 0
+}
+.page-edit-w {
+	background-position:-96px -32px
+}
+.cross-grey {
+	background-position:-32px 0
+}
+.cross-grey-small {
+	background-position:-32px -16px
+}
+.cross-white {
+	background-position:-48px -32px
+}
+.collapse-expand {
+	background-position:-64px -48px
+}
+.active .collapse-expand {
+	background-position:-48px -48px
+}
+.collapse-expand-g {
+	background-position:-96px -48px
+}
+.active .collapse-expand-g {
+	background-position:-80px -48px
+}
+.disconnect {
+	background-position:-16px 0
+}
+.star {
+	background-position:-48px 0
+}
+.star-g {
+	background-position:-112px -48px
+}
+.picture-edit {
+	background-position:-64px 0
+}
+.color-swatch {
+	background-position:-80px 0
+}
+.money {
+	background-position:-96px 0
+}
+.application-view-list {
+	background-position:-112px 0
+}
+.application-view-tree {
+	background-position:-112px -16px
+}
+.application-view-media {
+	background-position:-112px -32px
+}
+.application-view-icon {
+	background-position:-128px 0
+}
+.ico-add {
+	background-position:-144px 0
+}
+.ico-add-green {
+	background-position:-144px -16px
+}
+.ico-dragdrop-v {
+	background-position:-145px -32px
+}
+.ico-dragdrop-a {
+	background-position:-145px -48px
+}
+.ico-cancel {
+	background-position:-160px 0
+}
+.arrow-right {
+	background-position:-176px 0
+}
+.arrow-left {
+	background-position:-176px -16px
+}
+.arrow-left-w {
+	background-position:-160px -16px
+}
+.arrow-update {
+	background-position:-176px -32px
+}
+.arrow-download {
+	background-position:-176px -48px
+}
+.arrow-download-white {
+	background-position:-192px -48px
+}
+.help {
+	background-position:-192px 0
+}
+.ico-rotate-left {
+	background-position:-192px -16px
+}
+.ico-rotate-right {
+	background-position:-208px -16px
+}
+.add-comment-f {
+	background-position:-208px 0
+}
+.add-comment {
+	background-position:-224px 0
+}
+.ico-comment {
+	background-position:-240px 0
+}
+.ico-reply {
+	background-position:-240px -16px
+}
+.application-add {
+	background-position:-256px 0
+}
+.add-date {
+	background-position:-272px 0
+}
+.add-note {
+	background-position:-288px 0
+}
+.note-sigle {
+	background-position:-288px -16px;
+	margin-right:5px;
+	margin-top:3px
+}
+.ico-book-hotel {
+	background-position:-288px -32px
+}
+.add-hotel {
+	background-position:-304px 0
+}
+.ico-lock {
+	background-position:-320px 0
+}
+.ico-lock-open {
+	background-position:-320px -16px
+}
+.ico-lock-bg {
+	background-position:-624px -47px;
+	width:13px;
+	height:17px
+}
+.ico-charts {
+	background-position:-336px 0
+}
+.ico-cog {
+	background-position:-352px 0
+}
+.ico-target-blank {
+	background-position:-352px -32px
+}
+.comment-edit {
+	background-position:-368px 0
+}
+.content-edit {
+	background-position:-384px 0
+}
+.cross-red {
+	background-position:-400px 0
+}
+.title-edit {
+	background-position:-416px 0
+}
+.title-edit-w {
+	background-position:-416px -16px
+}
+.dsg-edit {
+	background-position:-416px -32px
+}
+.dsg-edit-mini {
+	background-position:-416px -48px
+}
+.printer {
+	background-position:-432px 0
+}
+.book-open {
+	background-position:-448px 0
+}
+.user-add {
+	background-position:-464px 0
+}
+.user-blue {
+	background-position:-464px -16px
+}
+.user-delete {
+	background-position:-464px -32px
+}
+.user-comment {
+	background-position:-480px 0
+}
+.org-table {
+	background-position:-496px 0;
+	width:23px
+}
+.ico-warning {
+	background-position:-496px -48px
+}
+.ico-warning-r {
+	background-position:-512px -48px
+}
+.page-excel {
+	background-position:-528px 0
+}
+.edit-list-things {
+	background-position:-528px -16px
+}
+.modify-count {
+	background-position:-528px -32px
+}
+.change-currency {
+	background-position:-528px -48px
+}
+.group-add {
+	background-position:-544px 0
+}
+.add-plus {
+	background-position:-544px -16px
+}
+.ico-gift-g {
+	background-position:-544px -32px
+}
+.add-plus-bg {
+	background-position:-560px -16px;
+	width:20px;
+	height:20px
+}
+.ico-gift-bg {
+	background-position:-560px -44px;
+	width:19px;
+	height:20px
+}
+.ico-page {
+	background-position:-560px 0
+}
+.ico-mail {
+	background-position:-576px 0
+}
+.ico-mail-big {
+	background-position:-998px -48px;
+	width:26px;
+	height:16px
+}
+.org-table-s {
+	background-position:-496px -16px
+}
+.org-table-add {
+	background-position:-496px -32px;
+	width:29px;
+	height:20px
+}
+.ico-mail-open {
+	background-position:-592px 0
+}
+.page-delete {
+	background-position:-608px 0
+}
+.ico-creditcards {
+	background-position:-624px 0
+}
+.ico-vcard {
+	background-position:-640px 0
+}
+.ico-group {
+	background-position:-656px 0
+}
+.ico-wrench {
+	background-position:-672px 0
+}
+.ico-date {
+	background-position:-688px 0
+}
+.ico-date-d {
+	background-position:-688px 0;
+	margin-top:3px;
+	margin-right:5px
+}
+.ico-newspaper {
+	background-position:-704px 0
+}
+.ico-newspaper-d {
+	background-position:-704px 0;
+	margin-top:3px;
+	margin-right:5px
+}
+.ico-key {
+	background-position:-720px 0
+}
+.ico-brick {
+	background-position:-736px 0
+}
+.ico-presentation {
+	background-position:-752px 0
+}
+.picture-go {
+	background-position:-768px 0
+}
+.picture-u {
+	background-position:-768px -16px
+}
+.photo-add {
+	background-position:-784px 0
+}
+.ico-camera {
+	background-position:-784px -16px
+}
+.ico-play {
+	background-position:-800px 0
+}
+.brick-add {
+	background-position:-816px 0
+}
+.ico-film {
+	background-position:-832px 0
+}
+.ico-film-b {
+	background-position:-832px -16px
+}
+.ico-music-a {
+	background-position:-848px 0
+}
+.ico-music-b {
+	background-position:-848px -16px
+}
+.application-get {
+	background-position:-864px 0
+}
+.application-put {
+	background-position:-880px 0
+}
+.ico-budget {
+	background-position:-896px 0
+}
+.ico-pie-chart {
+	background-position:-912px 0
+}
+.ico-thank {
+	background-position:-928px 0
+}
+.ico-marker-map {
+	background-position:-944px 0
+}
+.ico-twitter-f {
+	background-position:-960px 0
+}
+.ico-facebook-f {
+	background-position:-976px 0
+}
+.ico-map-add {
+	background-position:-992px 0
+}
+.ico-arrow-right {
+	background-position:-1008px 0
+}
+.tag-orange {
+	background-position:0 -16px
+}
+.tag-green {
+	background-position:0 -32px
+}
+.ico-accept {
+	background-position:-16px -16px
+}
+.ico-prohibited {
+	background-position:-16px -32px
+}
+.ico-map-edit {
+	background-position:-48px -16px
+}
+.ico-lightbulb {
+	background-position:-64px -16px
+}
+.arrow-d-b4 {
+	background-position:0 -48px
+}
+.arrow-l-b4 {
+	background-position:-16px -48px
+}
+.arrow-r-b4 {
+	background-position:-32px -48px
+}
+.ico-photoslide {
+	background-position:-768px -32px
+}
+.photo-rotate {
+	background-position:-988px -25px;
+	width:16px;
+	height:10px
+}
+.photo-edit {
+	background-position:-768px -48px
+}
+.thumb-edit {
+	background-position:-784px -48px
+}
+.giftlist-traditional {
+	background-position:-222px -48px;
+	width:15px!important;
+	height:16px
+}
+.giftlist-modern {
+	background-position:-237px -48px;
+	width:11px!important;
+	height:16px
+}
+.giftlist-design {
+	background-position:-248px -48px;
+	width:16px!important;
+	height:16px
+}
+.giftlist-experiences {
+	background-position:-209px -48px;
+	width:13px!important;
+	height:16px
+}
+.ico-giftlist-cart {
+	background-position:-942px -39px;
+	width:25px!important;
+	height:25px
+}
+.arrow-white-down-7x4 {
+	background-position:-65px -38px;
+	width:7px;
+	height:4px
+}
+.arrow-white-up-7x4 {
+	background-position:-72px -38px;
+	width:7px;
+	height:4px
+}
+.arrow-mobile {
+	background-position:-208px -32px
+}
+.arrow-arrow-right-b {
+	background-position:-192px -32px
+}
+.menu-icon-selector ul {
+	position:absolute;
+	top:23px;
+	padding:5px;
+	border:1px solid #ccc;
+	z-index:10;
+	background:#fff;
+	width:276px
+}
+.menu-icon-selector ul li {
+	float:left;
+	margin:0 3px 3px 0;
+	padding:2px
+}
+.menu-icon-selector .arrow {
+	cursor:pointer;
+	margin-top:3px
+}
+.sprite-wedding {
+	background-image:url(https://asset1.zankyou.com/img/css/sprite/sprite_ico_wedding_grey.png?v=1401350712847);
+	background-repeat:no-repeat;
+	float:left;
+	margin:5px 5px 0 0;
+	width:16px;
+	height:16px
+}
+@media only screen and (max-width:767px) {
+.sprite-wedding {
+margin:11px 5px 0 3px
+}
+.sidebar-box__title .sprite-wedding {
+margin:2px 5px
+}
+.sidebar-box__item .sprite-wedding {
+margin:5px
+}
+}
+.sprite-wedding--legacy {
+	background-image:url(https://asset2.zankyou.com/img/css/sprite/sprite_ico_wedding_color.png?v=1401350712847)
+}
+.ico-address {
+	background-position:0 0
+}
+.ico-battery {
+	background-position:-16px 0
+}
+.ico-bells {
+	background-position:-32px 0
+}
+.ico-blue_boy {
+	background-position:-48px 0
+}
+.ico-blue_executive {
+	background-position:-64px 0
+}
+.ico-bomb {
+	background-position:-80px 0
+}
+.ico-broken_heart {
+	background-position:-96px 0
+}
+.ico-broom {
+	background-position:-112px 0
+}
+.ico-cake {
+	background-position:-128px 0
+}
+.ico-cards {
+	background-position:-144px 0
+}
+.ico-clock {
+	background-position:-160px 0
+}
+.ico-club {
+	background-position:-176px 0
+}
+.ico-compass {
+	background-position:-192px 0
+}
+.ico-config {
+	background-position:-208px 0
+}
+.ico-crown {
+	background-position:-224px 0
+}
+.ico-cup {
+	background-position:-240px 0
+}
+.ico-duck {
+	background-position:-256px 0
+}
+.ico-envelope {
+	background-position:-272px 0
+}
+.ico-equalizer {
+	background-position:-288px 0
+}
+.ico-eyes {
+	background-position:-304px 0
+}
+.ico-female {
+	background-position:-320px 0
+}
+.ico-forniture {
+	background-position:-336px 0
+}
+.ico-gallery {
+	background-position:-352px 0
+}
+.ico-giftlist {
+	background-position:-368px 0
+}
+.ico-green_boy {
+	background-position:-384px 0
+}
+.ico-guestbook {
+	background-position:-400px 0
+}
+.ico-guestlist {
+	background-position:-416px 0
+}
+.ico-heart {
+	background-position:-432px 0
+}
+.ico-house {
+	background-position:-448px 0
+}
+.ico-in {
+	background-position:-464px 0
+}
+.ico-info {
+	background-position:-480px 0
+}
+.ico-ipod {
+	background-position:-496px 0
+}
+.ico-laugh {
+	background-position:-512px 0
+}
+.ico-lifeguard {
+	background-position:-528px 0
+}
+.ico-light {
+	background-position:-544px 0
+}
+.ico-male {
+	background-position:-560px 0
+}
+.ico-megaphone {
+	background-position:-576px 0
+}
+.ico-microphone {
+	background-position:-592px 0
+}
+.ico-music {
+	background-position:-608px 0
+}
+.ico-my-zankyou {
+	background-position:-624px 0
+}
+.ico-orange_boy {
+	background-position:-640px 0
+}
+.ico-out {
+	background-position:-656px 0
+}
+.ico-pencil {
+	background-position:-672px 0
+}
+.ico-penguin {
+	background-position:-688px 0
+}
+.ico-pill {
+	background-position:-704px 0
+}
+.ico-pink_girl {
+	background-position:-720px 0
+}
+.ico-puzzle {
+	background-position:-736px 0
+}
+.ico-rainbow {
+	background-position:-752px 0
+}
+.ico-ray {
+	background-position:-768px 0
+}
+.ico-sheet {
+	background-position:-784px 0
+}
+.ico-slate {
+	background-position:-800px 0
+}
+.ico-star {
+	background-position:-816px 0
+}
+.ico-sun {
+	background-position:-832px 0
+}
+.ico-talking {
+	background-position:-848px 0
+}
+.ico-tape {
+	background-position:-864px 0
+}
+.ico-thumbtack {
+	background-position:-880px 0
+}
+.ico-tongue {
+	background-position:-896px 0
+}
+.ico-vignette {
+	background-position:-912px 0
+}
+.ico-wand {
+	background-position:-928px 0
+}
+.ico-webpage {
+	background-position:-944px 0
+}
+.ico-wink {
+	background-position:-960px 0
+}
+.ico-hotel-m {
+	background-position:-992px 0
+}
+.ico-agenda {
+	background-position:-1009px 0
+}
+.off .ico-address, .off:hover .ico-address {
+	background-position:0 -16px
+}
+.off .ico-battery, .off:hover .ico-battery {
+	background-position:-16px -16px
+}
+.off .ico-bells, .off:hover .ico-bells {
+	background-position:-32px -16px
+}
+.off .ico-blue_boy, .off:hover .ico-blue_boy {
+	background-position:-48px -16px
+}
+.off .ico-blue_executive, .off:hover .ico-blue_executive {
+	background-position:-64px -16px
+}
+.off .ico-bomb, .off:hover .ico-bomb {
+	background-position:-80px -16px
+}
+.off .ico-broken_heart, .off:hover .ico-broken_heart {
+	background-position:-96px -16px
+}
+.off .ico-broom, .off:hover .ico-broom {
+	background-position:-112px -16px
+}
+.off .ico-cake, .off:hover .ico-cake {
+	background-position:-128px -16px
+}
+.off .ico-cards, .off:hover .ico-cards {
+	background-position:-144px -16px
+}
+.off .ico-clock, .off:hover .ico-clock {
+	background-position:-160px -16px
+}
+.off .ico-club, .off:hover .ico-club {
+	background-position:-176px -16px
+}
+.off .ico-compass, .off:hover .ico-compass {
+	background-position:-192px -16px
+}
+.off .ico-config, .off:hover .ico-config {
+	background-position:-208px -16px
+}
+.off .ico-crown, .off:hover .ico-crown {
+	background-position:-224px -16px
+}
+.off .ico-cup, .off:hover .ico-cup {
+	background-position:-240px -16px
+}
+.off .ico-duck, .off:hover .ico-duck {
+	background-position:-256px -16px
+}
+.off .ico-envelope, .off:hover .ico-envelope {
+	background-position:-272px -16px
+}
+.off .ico-equalizer, .off:hover .ico-equalizer {
+	background-position:-288px -16px
+}
+.off .ico-eyes, .off:hover .ico-eyes {
+	background-position:-304px -16px
+}
+.off .ico-female, .off:hover .ico-female {
+	background-position:-320px -16px
+}
+.off .ico-forniture, .off:hover .ico-forniture {
+	background-position:-336px -16px
+}
+.off .ico-gallery, .off:hover .ico-gallery {
+	background-position:-352px -16px
+}
+.off .ico-giftlist, .off:hover .ico-giftlist {
+	background-position:-368px -16px
+}
+.off .ico-green_boy, .off:hover .ico-green_boy {
+	background-position:-384px -16px
+}
+.off .ico-guestbook, .off:hover .ico-guestbook {
+	background-position:-400px -16px
+}
+.off .ico-guestlist, .off:hover .ico-guestlist {
+	background-position:-416px -16px
+}
+.off .ico-heart, .off:hover .ico-heart {
+	background-position:-432px -16px
+}
+.off .ico-house, .off:hover .ico-house {
+	background-position:-448px -16px
+}
+.off .ico-in, .off:hover .ico-in {
+	background-position:-464px -16px
+}
+.off .ico-info, .off:hover .ico-info {
+	background-position:-480px -16px
+}
+.off .ico-ipod, .off:hover .ico-ipod {
+	background-position:-496px -16px
+}
+.off .ico-laugh, .off:hover .ico-laugh {
+	background-position:-512px -16px
+}
+.off .ico-lifeguard, .off:hover .ico-lifeguard {
+	background-position:-528px -16px
+}
+.off .ico-light, .off:hover .ico-light {
+	background-position:-544px -16px
+}
+.off .ico-male, .off:hover .ico-male {
+	background-position:-560px -16px
+}
+.off .ico-megaphone, .off:hover .ico-megaphone {
+	background-position:-576px -16px
+}
+.off .ico-microphone, .off:hover .ico-microphone {
+	background-position:-592px -16px
+}
+.off .ico-music, .off:hover .ico-music {
+	background-position:-608px -16px
+}
+.off .ico-my, .off:hover .ico-my-zankyou {
+	background-position:-624px -16px
+}
+.off .ico-orange_boy, .off:hover .ico-orange_boy {
+	background-position:-640px -16px
+}
+.off .ico-out, .off:hover .ico-out {
+	background-position:-656px -16px
+}
+.off .ico-pencil, .off:hover .ico-pencil {
+	background-position:-672px -16px
+}
+.off .ico-penguin, .off:hover .ico-penguin {
+	background-position:-688px -16px
+}
+.off .ico-pill, .off:hover .ico-pill {
+	background-position:-704px -16px
+}
+.off .ico-pink_girl, .off:hover .ico-pink_girl {
+	background-position:-720px -16px
+}
+.off .ico-puzzle, .off:hover .ico-puzzle {
+	background-position:-736px -16px
+}
+.off .ico-rainbow, .off:hover .ico-rainbow {
+	background-position:-752px -16px
+}
+.off .ico-ray, .off:hover .ico-ray {
+	background-position:-768px -16px
+}
+.off .ico-sheet, .off:hover .ico-sheet {
+	background-position:-784px -16px
+}
+.off .ico-slate, .off:hover .ico-slate {
+	background-position:-800px -16px
+}
+.off .ico-star, .off:hover .ico-star {
+	background-position:-816px -16px
+}
+.off .ico-sun, .off:hover .ico-sun {
+	background-position:-832px -16px
+}
+.off .ico-talking, .off:hover .ico-talking {
+	background-position:-848px -16px
+}
+.off .ico-tape, .off:hover .ico-tape {
+	background-position:-864px -16px
+}
+.off .ico-thumbtack, .off:hover .ico-thumbtack {
+	background-position:-880px -16px
+}
+.off .ico-tongue, .off:hover .ico-tongue {
+	background-position:-896px -16px
+}
+.off .ico-vignette, .off:hover .ico-vignette {
+	background-position:-912px -16px
+}
+.off .ico-wand, .off:hover .ico-wand {
+	background-position:-928px -16px
+}
+.off .ico-webpage, .off:hover .ico-webpage {
+	background-position:-944px -16px
+}
+.off .ico-wink, .off:hover .ico-wink {
+	background-position:-960px -16px
+}
+.off .ico-hotel-m, .off:hover .ico-hotel-m {
+	background-position:-992px -16px
+}
+.off .ico-agenda, .off:hover .ico-agenda {
+	background-position:-1009px -16px
+}
+.menu-wedding .active .ico-address, .menu-wedding li:hover .ico-address {
+	background-position:0 -32px
+}
+.menu-wedding .active .ico-battery, .menu-wedding li:hover .ico-battery {
+	background-position:-16px -32px
+}
+.menu-wedding .active .ico-bells, .menu-wedding li:hover .ico-bells {
+	background-position:-32px -32px
+}
+.menu-wedding .active .ico-blue_boy, .menu-wedding li:hover .ico-blue_boy {
+	background-position:-48px -32px
+}
+.menu-wedding .active .ico-blue_executive, .menu-wedding li:hover .ico-blue_executive {
+	background-position:-64px -32px
+}
+.menu-wedding .active .ico-bomb, .menu-wedding li:hover .ico-bomb {
+	background-position:-80px -32px
+}
+.menu-wedding .active .ico-broken_heart, .menu-wedding li:hover .ico-broken_heart {
+	background-position:-96px -32px
+}
+.menu-wedding .active .ico-broom, .menu-wedding li:hover .ico-broom {
+	background-position:-112px -32px
+}
+.menu-wedding .active .ico-cake, .menu-wedding li:hover .ico-cake {
+	background-position:-128px -32px
+}
+.menu-wedding .active .ico-cards, .menu-wedding li:hover .ico-cards {
+	background-position:-144px -32px
+}
+.menu-wedding .active .ico-clock, .menu-wedding li:hover .ico-clock {
+	background-position:-160px -32px
+}
+.menu-wedding .active .ico-club, .menu-wedding li:hover .ico-club {
+	background-position:-176px -32px
+}
+.menu-wedding .active .ico-compass, .menu-wedding li:hover .ico-compass {
+	background-position:-192px -32px
+}
+.menu-wedding .active .ico-config, .menu-wedding li:hover .ico-config {
+	background-position:-208px -32px
+}
+.menu-wedding .active .ico-crown, .menu-wedding li:hover .ico-crown {
+	background-position:-224px -32px
+}
+.menu-wedding .active .ico-cup, .menu-wedding li:hover .ico-cup {
+	background-position:-240px -32px
+}
+.menu-wedding .active .ico-duck, .menu-wedding li:hover .ico-duck {
+	background-position:-256px -32px
+}
+.menu-wedding .active .ico-envelope, .menu-wedding li:hover .ico-envelope {
+	background-position:-272px -32px
+}
+.menu-wedding .active .ico-equalizer, .menu-wedding li:hover .ico-equalizer {
+	background-position:-288px -32px
+}
+.menu-wedding .active .ico-eyes, .menu-wedding li:hover .ico-eyes {
+	background-position:-304px -32px
+}
+.menu-wedding .active .ico-female, .menu-wedding li:hover .ico-female {
+	background-position:-320px -32px
+}
+.menu-wedding .active .ico-forniture, .menu-wedding li:hover .ico-forniture {
+	background-position:-336px -32px
+}
+.menu-wedding .active .ico-gallery, .menu-wedding li:hover .ico-gallery {
+	background-position:-352px -32px
+}
+.menu-wedding .active .ico-giftlist, .menu-wedding li:hover .ico-giftlist {
+	background-position:-368px -32px
+}
+.menu-wedding .active .ico-green_boy, .menu-wedding li:hover .ico-green_boy {
+	background-position:-384px -32px
+}
+.menu-wedding .active .ico-guestbook, .menu-wedding li:hover .ico-guestbook {
+	background-position:-400px -32px
+}
+.menu-wedding .active .ico-guestlist, .menu-wedding li:hover .ico-guestlist {
+	background-position:-416px -32px
+}
+.menu-wedding .active .ico-heart, .menu-wedding li:hover .ico-heart {
+	background-position:-432px -32px
+}
+.menu-wedding .active .ico-house, .menu-wedding li:hover .ico-house {
+	background-position:-448px -32px
+}
+.menu-wedding .active .ico-in, .menu-wedding li:hover .ico-in {
+	background-position:-464px -32px
+}
+.menu-wedding .active .ico-info, .menu-wedding li:hover .ico-info {
+	background-position:-480px -32px
+}
+.menu-wedding .active .ico-ipod, .menu-wedding li:hover .ico-ipod {
+	background-position:-496px -32px
+}
+.menu-wedding .active .ico-laugh, .menu-wedding li:hover .ico-laugh {
+	background-position:-512px -32px
+}
+.menu-wedding .active .ico-lifeguard, .menu-wedding li:hover .ico-lifeguard {
+	background-position:-528px -32px
+}
+.menu-wedding .active .ico-light, .menu-wedding li:hover .ico-light {
+	background-position:-544px -32px
+}
+.menu-wedding .active .ico-male, .menu-wedding li:hover .ico-male {
+	background-position:-560px -32px
+}
+.menu-wedding .active .ico-megaphone, .menu-wedding li:hover .ico-megaphone {
+	background-position:-576px -32px
+}
+.menu-wedding .active .ico-microphone, .menu-wedding li:hover .ico-microphone {
+	background-position:-592px -32px
+}
+.menu-wedding .active .ico-music, .menu-wedding li:hover .ico-music {
+	background-position:-608px -32px
+}
+.menu-wedding .active .ico-my-zankyou, .menu-wedding li:hover .ico-my-zankyou {
+	background-position:-624px -32px
+}
+.menu-wedding .active .ico-orange_boy, .menu-wedding li:hover .ico-orange_boy {
+	background-position:-640px -32px
+}
+.menu-wedding .active .ico-out, .menu-wedding li:hover .ico-out {
+	background-position:-656px -32px
+}
+.menu-wedding .active .ico-pencil, .menu-wedding li:hover .ico-pencil {
+	background-position:-672px -32px
+}
+.menu-wedding .active .ico-penguin, .menu-wedding li:hover .ico-penguin {
+	background-position:-688px -32px
+}
+.menu-wedding .active .ico-pill, .menu-wedding li:hover .ico-pill {
+	background-position:-704px -32px
+}
+.menu-wedding .active .ico-pink_girl, .menu-wedding li:hover .ico-pink_girl {
+	background-position:-720px -32px
+}
+.menu-wedding .active .ico-puzzle, .menu-wedding li:hover .ico-puzzle {
+	background-position:-736px -32px
+}
+.menu-wedding .active .ico-rainbow, .menu-wedding li:hover .ico-rainbow {
+	background-position:-752px -32px
+}
+.menu-wedding .active .ico-ray, .menu-wedding li:hover .ico-ray {
+	background-position:-768px -32px
+}
+.menu-wedding .active .ico-sheet, .menu-wedding li:hover .ico-sheet {
+	background-position:-784px -32px
+}
+.menu-wedding .active .ico-slate, .menu-wedding li:hover .ico-slate {
+	background-position:-800px -32px
+}
+.menu-wedding .active .ico-star, .menu-wedding li:hover .ico-star {
+	background-position:-816px -32px
+}
+.menu-wedding .active .ico-sun, .menu-wedding li:hover .ico-sun {
+	background-position:-832px -32px
+}
+.menu-wedding .active .ico-talking, .menu-wedding li:hover .ico-talking {
+	background-position:-848px -32px
+}
+.menu-wedding .active .ico-tape, .menu-wedding li:hover .ico-tape {
+	background-position:-864px -32px
+}
+.menu-wedding .active .ico-thumbtack, .menu-wedding li:hover .ico-thumbtack {
+	background-position:-880px -32px
+}
+.menu-wedding .active .ico-tongue, .menu-wedding li:hover .ico-tongue {
+	background-position:-896px -32px
+}
+.menu-wedding .active .ico-vignette, .menu-wedding li:hover .ico-vignette {
+	background-position:-912px -32px
+}
+.menu-wedding .active .ico-wand, .menu-wedding li:hover .ico-wand {
+	background-position:-928px -32px
+}
+.menu-wedding .active .ico-webpage, .menu-wedding li:hover .ico-webpage {
+	background-position:-944px -32px
+}
+.menu-wedding .active .ico-wink, .menu-wedding li:hover .ico-wink {
+	background-position:-960px -32px
+}
+.menu-wedding .active .ico-hotel-m, .menu-wedding li:hover .ico-hotel-m {
+	background-position:-992px -32px
+}
+.menu-wedding .active .ico-agenda, .menu-wedding li:hover .ico-agenda {
+	background-position:-1009px -32px
+}
+.menu-wedding li.off .ico-address, .menu-wedding li.off:hover .ico-address {
+	background-position:0 -16px
+}
+.menu-wedding li.off .ico-battery, .menu-wedding li.off:hover .ico-battery {
+	background-position:-16px -16px
+}
+.menu-wedding li.off .ico-bells, .menu-wedding li.off:hover .ico-bells {
+	background-position:-32px -16px
+}
+.menu-wedding li.off .ico-blue_boy, .menu-wedding li.off:hover .ico-blue_boy {
+	background-position:-48px -16px
+}
+.menu-wedding li.off .ico-blue_executive, .menu-wedding li.off:hover .ico-blue_executive {
+	background-position:-64px -16px
+}
+.menu-wedding li.off .ico-bomb, .menu-wedding li.off:hover .ico-bomb {
+	background-position:-80px -16px
+}
+.menu-wedding li.off .ico-broken_heart, .menu-wedding li.off:hover .ico-broken_heart {
+	background-position:-96px -16px
+}
+.menu-wedding li.off .ico-broom, .menu-wedding li.off:hover .ico-broom {
+	background-position:-112px -16px
+}
+.menu-wedding li.off .ico-cake, .menu-wedding li.off:hover .ico-cake {
+	background-position:-128px -16px
+}
+.menu-wedding li.off .ico-cards, .menu-wedding li.off:hover .ico-cards {
+	background-position:-144px -16px
+}
+.menu-wedding li.off .ico-clock, .menu-wedding li.off:hover .ico-clock {
+	background-position:-160px -16px
+}
+.menu-wedding li.off .ico-club, .menu-wedding li.off:hover .ico-club {
+	background-position:-176px -16px
+}
+.menu-wedding li.off .ico-compass, .menu-wedding li.off:hover .ico-compass {
+	background-position:-192px -16px
+}
+.menu-wedding li.off .ico-config, .menu-wedding li.off:hover .ico-config {
+	background-position:-208px -16px
+}
+.menu-wedding li.off .ico-crown, .menu-wedding li.off:hover .ico-crown {
+	background-position:-224px -16px
+}
+.menu-wedding li.off .ico-cup, .menu-wedding li.off:hover .ico-cup {
+	background-position:-240px -16px
+}
+.menu-wedding li.off .ico-duck, .menu-wedding li.off:hover .ico-duck {
+	background-position:-256px -16px
+}
+.menu-wedding li.off .ico-envelope, .menu-wedding li.off:hover .ico-envelope {
+	background-position:-272px -16px
+}
+.menu-wedding li.off .ico-equalizer, .menu-wedding li.off:hover .ico-equalizer {
+	background-position:-288px -16px
+}
+.menu-wedding li.off .ico-eyes, .menu-wedding li.off:hover .ico-eyes {
+	background-position:-304px -16px
+}
+.menu-wedding li.off .ico-female, .menu-wedding li.off:hover .ico-female {
+	background-position:-320px -16px
+}
+.menu-wedding li.off .ico-forniture, .menu-wedding li.off:hover .ico-forniture {
+	background-position:-336px -16px
+}
+.menu-wedding li.off .ico-gallery, .menu-wedding li.off:hover .ico-gallery {
+	background-position:-352px -16px
+}
+.menu-wedding li.off .ico-giftlist, .menu-wedding li.off:hover .ico-giftlist {
+	background-position:-368px -16px
+}
+.menu-wedding li.off .ico-green_boy, .menu-wedding li.off:hover .ico-green_boy {
+	background-position:-384px -16px
+}
+.menu-wedding li.off .ico-guestbook, .menu-wedding li.off:hover .ico-guestbook {
+	background-position:-400px -16px
+}
+.menu-wedding li.off .ico-guestlist, .menu-wedding li.off:hover .ico-guestlist {
+	background-position:-416px -16px
+}
+.menu-wedding li.off .ico-heart, .menu-wedding li.off:hover .ico-heart {
+	background-position:-432px -16px
+}
+.menu-wedding li.off .ico-house, .menu-wedding li.off:hover .ico-house {
+	background-position:-448px -16px
+}
+.menu-wedding li.off .ico-in, .menu-wedding li.off:hover .ico-in {
+	background-position:-464px -16px
+}
+.menu-wedding li.off .ico-info, .menu-wedding li.off:hover .ico-info {
+	background-position:-480px -16px
+}
+.menu-wedding li.off .ico-ipod, .menu-wedding li.off:hover .ico-ipod {
+	background-position:-496px -16px
+}
+.menu-wedding li.off .ico-laugh, .menu-wedding li.off:hover .ico-laugh {
+	background-position:-512px -16px
+}
+.menu-wedding li.off .ico-lifeguard, .menu-wedding li.off:hover .ico-lifeguard {
+	background-position:-528px -16px
+}
+.menu-wedding li.off .ico-light, .menu-wedding li.off:hover .ico-light {
+	background-position:-544px -16px
+}
+.menu-wedding li.off .ico-male, .menu-wedding li.off:hover .ico-male {
+	background-position:-560px -16px
+}
+.menu-wedding li.off .ico-megaphone, .menu-wedding li.off:hover .ico-megaphone {
+	background-position:-576px -16px
+}
+.menu-wedding li.off .ico-microphone, .menu-wedding li.off:hover .ico-microphone {
+	background-position:-592px -16px
+}
+.menu-wedding li.off .ico-music, .menu-wedding li.off:hover .ico-music {
+	background-position:-608px -16px
+}
+.menu-wedding li.off .ico-my, .menu-wedding li.off:hover .ico-my-zankyou {
+	background-position:-624px -16px
+}
+.menu-wedding li.off .ico-orange_boy, .menu-wedding li.off:hover .ico-orange_boy {
+	background-position:-640px -16px
+}
+.menu-wedding li.off .ico-out, .menu-wedding li.off:hover .ico-out {
+	background-position:-656px -16px
+}
+.menu-wedding li.off .ico-pencil, .menu-wedding li.off:hover .ico-pencil {
+	background-position:-672px -16px
+}
+.menu-wedding li.off .ico-penguin, .menu-wedding li.off:hover .ico-penguin {
+	background-position:-688px -16px
+}
+.menu-wedding li.off .ico-pill, .menu-wedding li.off:hover .ico-pill {
+	background-position:-704px -16px
+}
+.menu-wedding li.off .ico-pink_girl, .menu-wedding li.off:hover .ico-pink_girl {
+	background-position:-720px -16px
+}
+.menu-wedding li.off .ico-puzzle, .menu-wedding li.off:hover .ico-puzzle {
+	background-position:-736px -16px
+}
+.menu-wedding li.off .ico-rainbow, .menu-wedding li.off:hover .ico-rainbow {
+	background-position:-752px -16px
+}
+.menu-wedding li.off .ico-ray, .menu-wedding li.off:hover .ico-ray {
+	background-position:-768px -16px
+}
+.menu-wedding li.off .ico-sheet, .menu-wedding li.off:hover .ico-sheet {
+	background-position:-784px -16px
+}
+.menu-wedding li.off .ico-slate, .menu-wedding li.off:hover .ico-slate {
+	background-position:-800px -16px
+}
+.menu-wedding li.off .ico-star, .menu-wedding li.off:hover .ico-star {
+	background-position:-816px -16px
+}
+.menu-wedding li.off .ico-sun, .menu-wedding li.off:hover .ico-sun {
+	background-position:-832px -16px
+}
+.menu-wedding li.off .ico-talking, .menu-wedding li.off:hover .ico-talking {
+	background-position:-848px -16px
+}
+.menu-wedding li.off .ico-tape, .menu-wedding li.off:hover .ico-tape {
+	background-position:-864px -16px
+}
+.menu-wedding li.off .ico-thumbtack, .menu-wedding li.off:hover .ico-thumbtack {
+	background-position:-880px -16px
+}
+.menu-wedding li.off .ico-tongue, .menu-wedding li.off:hover .ico-tongue {
+	background-position:-896px -16px
+}
+.menu-wedding li.off .ico-vignette, .menu-wedding li.off:hover .ico-vignette {
+	background-position:-912px -16px
+}
+.menu-wedding li.off .ico-wand, .menu-wedding li.off:hover .ico-wand {
+	background-position:-928px -16px
+}
+.menu-wedding li.off .ico-webpage, .menu-wedding li.off:hover .ico-webpage {
+	background-position:-944px -16px
+}
+.menu-wedding li.off .ico-wink, .menu-wedding li.off:hover .ico-wink {
+	background-position:-960px -16px
+}
+.menu-wedding li.off .ico-hotel-m, .menu-wedding li.off:hover .ico-hotel-m {
+	background-position:-992px -16px
+}
+.menu-wedding li.off .ico-agenda, .menu-wedding li.off:hover .ico-agenda {
+	background-position:-1009px -16px
+}
+.ico-tools-r {
+	background:url(https://asset3.zankyou.com/img/css/sprite/sprite_tools_r.png?v=1401350712847);
+	background-repeat:no-repeat;
+	display:block;
+	margin:0 auto
+}
+.ico-task-r {
+	background-position:0 -55px;
+	width:35px;
+	height:47px
+}
+.ico-pc-r {
+	background-position:-36px -55px;
+	width:45px;
+	height:50px
+}
+.ico-pig-r {
+	background-position:-84px -55px;
+	width:46px;
+	height:50px
+}
+.ico-question-r {
+	background-position:-130px -55px;
+	width:47px;
+	height:54px
+}
+.ico-shirt-r {
+	background-position:-176px -55px;
+	width:50px;
+	height:54px
+}
+.ico-table-r {
+	background-position:-231px -64px;
+	width:52px;
+	height:45px;
+	position:relative;
+	top:10px
+}
+.ico-envelope-r {
+	background-position:-288px -55px;
+	width:54px;
+	height:54px
+}
+.ico-fly-r {
+	background-position:-346px -64px;
+	width:54px;
+	height:44px;
+	position:relative;
+	top:10px
+}
+.ico-paper-white {
+	background-position:-402px -52px;
+	width:47px;
+	height:54px
+}
+.ico-vineta {
+	background-position:-453px -56px;
+	width:52px;
+	height:54px
+}
+.ico-compass-r {
+	background-position:-512px -56px;
+	width:57px;
+	height:54px
+}
+.ico-gift-r {
+	background-position:-572px -58px;
+	width:46px;
+	height:54px
+}
+.ico-padlock {
+	background-position:-621px -58px;
+	width:43px;
+	height:54px
+}
+.ico-daily {
+	background-position:-663px -58px;
+	width:62px;
+	height:48px
+}
+.ico-hotel-r {
+	background-position:-727px -58px;
+	width:44px;
+	height:52px
+}
+.ico-sunny {
+	background-position:-771px -58px;
+	width:48px;
+	height:45px
+}
+.ico-color-r {
+	background-position:-823px -58px;
+	width:34px;
+	height:52px
+}
+.ico-calendar-r {
+	background-position:-863px -57px;
+	width:51px;
+	height:52px
+}
+.ico-analytics-r {
+	background-position:-920px -55px;
+	width:53px;
+	height:52px
+}
+.ico-guests-r {
+	background-position:-975px -55px;
+	width:53px;
+	height:52px
+}
+.ico-scissors-r {
+	background-position:-1025px -56px;
+	width:47px;
+	height:52px
+}
+.ico-guitar-r {
+	background-position:-1074px -56px;
+	width:53px;
+	height:53px
+}
+.ico-countdown-r {
+	background-position:-1131px -57px;
+	width:48px;
+	height:53px
+}
+.ico-video-r {
+	background-position:-1180px -56px;
+	width:43px;
+	height:53px
+}
+.ico-banner-r {
+	background-position:-1228px -58px;
+	width:43px;
+	height:53px
+}
+.ico-newspaper-r {
+	background-position:-1278px -58px;
+	width:59px;
+	height:53px
+}
+.ico-gallery-r {
+	background-position:-1344px -56px;
+	width:59px;
+	height:53px
+}
+.ico-domain-r {
+	background-position:-1418px -57px;
+	width:63px;
+	height:53px
+}
+.ico-save-the-date-r {
+	background-position:-1493px -57px;
+	width:63px;
+	height:53px
+}
+.ico-wedding-list {
+	float:left;
+	margin-right:10px;
+	width:52px;
+	background-image:url(https://asset4.zankyou.com/img/css/sprite/sprite_wedding_list.png?v=1401350712847);
+	background-repeat:no-repeat
+}
+@media screen and (max-width:720px) {
+.ico-wedding-list {
+display:inline-block;
+vertical-align:middle;
+float:none
+}
+}
+.ico-ecology-l {
+	background-position:0 0;
+	height:34px
+}
+.ico-money-l {
+	background-position:0 -34px;
+	height:40px
+}
+.ico-plane-l {
+	background-position:0 -74px;
+	height:31px
+}
+.ico-world-l {
+	background-position:0 -105px;
+	height:35px
+}
+.ico-thumb-l {
+	background-position:0 -140px;
+	height:31px
+}
+.ico-tag-l {
+	background-position:0 -171px;
+	height:37px
+}
+.ico-ecology-lg {
+	background-position:-52px 0;
+	height:34px
+}
+.ico-money-lg {
+	background-position:-52px -34px;
+	height:40px
+}
+.ico-plane-lg {
+	background-position:-52px -74px;
+	height:31px
+}
+.ico-world-lg {
+	background-position:-52px -105px;
+	height:35px
+}
+.ico-thumb-lg {
+	background-position:-52px -140px;
+	height:31px
+}
+.ico-tag-lg {
+	background-position:-52px -171px;
+	height:37px
+}
+a:hover .ico-task-r, a.active .ico-task-r {
+	background-position:0 0
+}
+a:hover .ico-pc-r, a.active .ico-pc-r {
+	background-position:-36px 0
+}
+a:hover .ico-pig-r, a.active .ico-pig-r {
+	background-position:-84px 0
+}
+a:hover .ico-question-r, a.active .ico-question-r {
+	background-position:-130px 0
+}
+a:hover .ico-shirt-r, a.active .ico-shirt-r {
+	background-position:-176px 0
+}
+a:hover .ico-table-r, a.active .ico-table-r {
+	background-position:-231px -9px
+}
+a:hover .ico-envelope-r, a.active .ico-envelope-r {
+	background-position:-288px 0
+}
+a:hover .ico-fly-r, a.active .ico-fly-r {
+	background-position:-346px -9px
+}
+a:hover .ico-paper-white, a.active .ico-paper-white {
+	background-position:-402px 0
+}
+a:hover .ico-vineta, a.active .ico-vineta {
+	background-position:-453px 0
+}
+a:hover .ico-compass-r, a.active .ico-compass {
+	background-position:-512px 0
+}
+a:hover .ico-gift-r, a.active .ico-gift-r {
+	background-position:-572px 0
+}
+a:hover .ico-padlock, a.active .ico-padlock {
+	background-position:-621px 0
+}
+a:hover .ico-daily, a.active .ico-daily {
+	background-position:-663px 0
+}
+a:hover .ico-hotel-r, a.active .ico-hotel-r {
+	background-position:-727px 0
+}
+a:hover .ico-sunny, a.active .ico-sunny {
+	background-position:-771px 0
+}
+a:hover .ico-color-r, a.active .ico-color-r {
+	background-position:-823px 0
+}
+a:hover .ico-calendar-r, a.active .ico-calendar-r {
+	background-position:-863px 0
+}
+a:hover .ico-analytics-r, a.active .ico-analytics-r {
+	background-position:-920px 0
+}
+a:hover .ico-guests-r, a.active .ico-guests {
+	background-position:-975px 0
+}
+a:hover .ico-scissors-r, a.active .ico-scissors {
+	background-position:-1025px 0
+}
+a:hover .ico-guitar-r, a.active .ico-guitar-r {
+	background-position:-1074px 0
+}
+a:hover .ico-countdown-r a.active .ico-count-down-r {
+	background-position:-1131px 0
+}
+a:hover .ico-video-r, a.active .ico-video-r {
+	background-position:-1180px 0
+}
+a:hover .ico-banner-r, a.active .ico-banner-r {
+	background-position:-1228px 0
+}
+a:hover .ico-newspaper-r, a.active .ico-newspaper-r {
+	background-position:-1278px 0
+}
+a:hover .ico-gallery-r, a.active .ico-gallery-r {
+	background-position:-1344px 0
+}
+a:hover .ico-domain-r, a.active .ico-domain-r {
+	background-position:-1418px 0
+}
+a:hover .ico-save-the-date-r, a.active .ico-save-the-date-r {
+	background-position:-1493px 0
+}
+.ico-order-up {
+	width:10px;
+	height:5px;
+	background-position:-78px -21px
+}
+.ico-order-down {
+	width:10px;
+	height:5px;
+	background-position:-88px -21px
+}
+a:hover .ico-order-up, .active .ico-order-up {
+	background-color:#5baaa1;
+	background-position:-78px -26px
+}
+a:hover .ico-order-down, .active .ico-order-down {
+	background-color:#5baaa1;
+	background-position:-88px -26px
+}
+.order-up-box {
+	width:11px;
+	height:13px;
+	background-position:-110px -65px
+}
+.order-down-box {
+	width:11px;
+	height:13px;
+	background-position:-110px -78px
+}
+a:hover .order-up-box {
+	background-position:-121px -65px
+}
+a:hover .order-down-box {
+	background-position:-121px -78px
+}
+.ico-hotel {
+	width:16px;
+	height:16px;
+	background-position:-132px -65px;
+	margin-right:7px
+}
+.ico-widget {
+	width:34px;
+	float:left;
+	margin-right:10px;
+	background-image:url(https://asset2.zankyou.com/img/css/sprite/sprite_widget.png?v=1401350712847);
+	background-repeat:no-repeat
+}
+.ico-widget.countdown {
+	height:34px;
+	background-position:0 0
+}
+.ico-widget.survey {
+	height:33px;
+	background-position:0 -34px
+}
+.ico-widget.music {
+	height:33px;
+	background-position:0 -67px
+}
+.ico-widget.slideshow {
+	height:33px;
+	background-position:0 -100px
+}
+.ico-widget.twitter {
+	height:34px;
+	background-position:0 -133px
+}
+.ico-widget.weather {
+	height:34px;
+	background-position:0 -167px
+}
+.ico-widget.videos {
+	height:34px;
+	background-position:0 -201px
+}
+.ico-widget.visits {
+	height:34px;
+	background-position:0 -234px
+}
+.ico-dir-an {
+	background-image:url(https://asset4.zankyou.com/img/css/sprite/sprite_dir_announcement.png?v=1401350712847);
+	background-repeat:no-repeat;
+	float:left;
+	width:23px;
+	height:20px
+}
+.ico-dir-an.dresses, .all-categories ul.disabled a:hover .ico-dir-an.dresses {
+	background-position:0 0
+}
+.ico-dir-an.location, .all-categories ul.disabled a:hover .ico-dir-an.location {
+	background-position:-23px 0
+}
+.ico-dir-an.ceremony, .all-categories ul.disabled a:hover .ico-dir-an.ceremony {
+	background-position:-46px 0
+}
+.ico-dir-an.media, .all-categories ul.disabled a:hover .ico-dir-an.media {
+	background-position:-69px 0
+}
+.ico-dir-an.flowers, .all-categories ul.disabled a:hover .ico-dir-an.flowers {
+	background-position:-92px 0
+}
+.ico-dir-an.accesories, .all-categories ul.disabled a:hover .ico-dir-an.accesories {
+	background-position:-115px 0
+}
+.ico-dir-an.beauty, .all-categories ul.disabled a:hover .ico-dir-an.beauty {
+	background-position:-138px 0
+}
+.ico-dir-an.groom, .all-categories ul.disabled a:hover .ico-dir-an.groom {
+	background-position:-161px 0
+}
+.ico-dir-an.transport, .all-categories ul.disabled a:hover .ico-dir-an.transport {
+	background-position:-184px 0
+}
+.ico-dir-an.honeymoon, .all-categories ul.disabled a:hover .ico-dir-an.honeymoon {
+	background-position:-207px 0
+}
+.ico-dir-an.music, .all-categories ul.disabled a:hover .ico-dir-an.music {
+	background-position:-230px 0
+}
+.ico-dir-an.jewels, .all-categories ul.disabled a:hover .ico-dir-an.jewels {
+	background-position:-253px 0
+}
+.ico-dir-an.catering, .all-categories ul.disabled a:hover .ico-dir-an.catering {
+	background-position:-276px 0
+}
+.ico-dir-an.planner, .all-categories ul.disabled a:hover .ico-dir-an.planner {
+	background-position:-299px 0
+}
+.ico-dir-an.guests, .all-categories ul.disabled a:hover .ico-dir-an.guests {
+	background-position:-322px 0
+}
+.ico-dir-an.invitations, .all-categories ul.disabled a:hover .ico-dir-an.invitations {
+	background-position:-345px 0
+}
+.ico-dir-an.services, .all-categories ul.disabled a:hover .ico-dir-an.services {
+	background-position:-368px 0
+}
+.ico-dir-an.deco, .all-categories ul.disabled a:hover .ico-dir-an.deco {
+	background-position:-391px 0
+}
+.ico-dir-an.gifts, .all-categories ul.disabled a:hover .ico-dir-an.gifts {
+	background-position:-414px 0
+}
+a:hover .ico-dir-an.dresses, .all-categories ul:hover:not(.disabled) .ico-dir-an.dresses {
+background-position:0 -20px
+}
+a:hover .ico-dir-an.location, .all-categories ul:hover:not(.disabled) .ico-dir-an.location {
+background-position:-23px -20px
+}
+a:hover .ico-dir-an.ceremony, .all-categories ul:hover:not(.disabled) .ico-dir-an.ceremony {
+background-position:-46px -20px
+}
+a:hover .ico-dir-an.media, .all-categories ul:hover:not(.disabled) .ico-dir-an.media {
+background-position:-69px -20px
+}
+a:hover .ico-dir-an.flowers, .all-categories ul:hover:not(.disabled) .ico-dir-an.flowers {
+background-position:-92px -20px
+}
+a:hover .ico-dir-an.accesories, .all-categories ul:hover:not(.disabled) .ico-dir-an.accesories {
+background-position:-115px -20px
+}
+a:hover .ico-dir-an.beauty, .all-categories ul:hover:not(.disabled) .ico-dir-an.beauty {
+background-position:-138px -20px
+}
+a:hover .ico-dir-an.groom, .all-categories ul:hover:not(.disabled) .ico-dir-an.groom {
+background-position:-161px -20px
+}
+a:hover .ico-dir-an.transport, .all-categories ul:hover:not(.disabled) .ico-dir-an.transport {
+background-position:-184px -20px
+}
+a:hover .ico-dir-an.honeymoon, .all-categories ul:hover:not(.disabled) .ico-dir-an.honeymoon {
+background-position:-207px -20px
+}
+a:hover .ico-dir-an.music, .all-categories ul:hover:not(.disabled) .ico-dir-an.music {
+background-position:-230px -20px
+}
+a:hover .ico-dir-an.jewels, .all-categories ul:hover:not(.disabled) .ico-dir-an.jewels {
+background-position:-253px -20px
+}
+a:hover .ico-dir-an.catering, .all-categories ul:hover:not(.disabled) .ico-dir-an.catering {
+background-position:-276px -20px
+}
+a:hover .ico-dir-an.planner, .all-categories ul:hover:not(.disabled) .ico-dir-an.planner {
+background-position:-299px -20px
+}
+a:hover .ico-dir-an.guests, .all-categories ul:hover:not(.disabled) .ico-dir-an.guests {
+background-position:-322px -20px
+}
+a:hover .ico-dir-an.invitations, .all-categories ul:hover:not(.disabled) .ico-dir-an.invitations {
+background-position:-345px -20px
+}
+a:hover .ico-dir-an.services, .all-categories ul:hover:not(.disabled) .ico-dir-an.services {
+background-position:-368px -20px
+}
+a:hover .ico-dir-an.deco, .all-categories ul:hover:not(.disabled) .ico-dir-an.deco {
+background-position:-391px -20px
+}
+a:hover .ico-dir-an.gifts, .all-categories ul:hover:not(.disabled) .ico-dir-an.gifts {
+background-position:-414px -20px
+}
+.packs-icons-big .image {
+	background:url(https://asset4.zankyou.com/img/css/sprite/sprite-store-image.png?v=1401350712847) 0 0 no-repeat;
+	display:inline-block;
+	width:60px;
+	height:60px
+}
+.packs-icons-big .store-image-1 {
+	background-position:-840px 0
+}
+.packs-icons-big .store-image-2 {
+	background-position:-600px 0
+}
+.packs-icons-big .store-image-3 {
+	background-position:-540px 0
+}
+.packs-icons-big .store-image-4 {
+	background-position:-660px 0
+}
+.packs-icons-big .store-image-5 {
+	background-position:-240px 0
+}
+.packs-icons-big .store-image-7 {
+	background-position:-120px 0
+}
+.packs-icons-big .store-image-8 {
+	background-position:-900px 0
+}
+.packs-icons-big .store-image-10 {
+	background-position:-957px 0
+}
+.packs-icons-big .store-image-11 {
+	background-position:-957px 0
+}
+.packs-icons-big .store-image-12 {
+	background-position:-957px 0
+}
+.packs-icons-big .store-image-14 {
+	background-position:-180px 0
+}
+.packs-icons-big .store-image-15 {
+	background-position:-300px 0
+}
+.packs-icons-big .store-image-16 {
+	background-position:-480px 0
+}
+.packs-icons-big .store-image-17 {
+	background-position:-420px 0
+}
+.packs-icons-big .store-image-18 {
+	background-position:-780px 0
+}
+.packs-icons-big .store-image-19 {
+	background-position:-720px 0
+}
+.packs-icons-big .store-image-21 {
+	background-position:-480px 0
+}
+.packs-icons-big .store-image-23 {
+	background-position:-360px 0
+}
+.packs-icons-big .store-image-24 {
+	background-position:0 0
+}
+.packs-icons-big .store-image-25 {
+	background-position:-60px 0
+}
+.packs-icons-med .image {
+	background:url(https://asset4.zankyou.com/img/css/sprite/sprite-store-image.png?v=1401350712847) 0 0 no-repeat;
+	display:inline-block;
+	width:40px;
+	height:40px
+}
+.packs-icons-med .store-image-1 {
+	background-position:-850px -60px
+}
+.packs-icons-med .store-image-2 {
+	background-position:-612px -60px
+}
+.packs-icons-med .store-image-3 {
+	background-position:-550px -60px
+}
+.packs-icons-med .store-image-4 {
+	background-position:-670px -60px
+}
+.packs-icons-med .store-image-5 {
+	background-position:-248px -60px
+}
+.packs-icons-med .store-image-7 {
+	background-position:-131px -60px
+}
+.packs-icons-med .store-image-8 {
+	background-position:-910px -60px
+}
+.packs-icons-med .store-image-10 {
+	background-position:-967px -60px
+}
+.packs-icons-med .store-image-11 {
+	background-position:-967px -60px
+}
+.packs-icons-med .store-image-12 {
+	background-position:0 -60px
+}
+.packs-icons-med .store-image-14 {
+	background-position:-190px -60px
+}
+.packs-icons-med .store-image-15 {
+	background-position:-311px -60px
+}
+.packs-icons-med .store-image-16 {
+	background-position:-490px -60px
+}
+.packs-icons-med .store-image-17 {
+	background-position:-430px -60px
+}
+.packs-icons-med .store-image-18 {
+	background-position:-791px -60px
+}
+.packs-icons-med .store-image-19 {
+	background-position:-729px -60px
+}
+.packs-icons-med .store-image-21 {
+	background-position:-490px -60px
+}
+.packs-icons-med .store-image-23 {
+	background-position:-370px -60px
+}
+.packs-icons-med .store-image-24 {
+	background-position:-8px -60px
+}
+.packs-icons-med .store-image-25 {
+	background-position:-69px -60px
+}
+.packs-icons-small .image, .is-premium-theme__ico {
+	background:url(https://asset4.zankyou.com/img/css/sprite/sprite-store-image.png?v=1401350712847) 0 0 no-repeat;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	text-indent:-99999px
+}
+.packs-icons-small .store-image-1 {
+	background-position:-860px -100px
+}
+.packs-icons-small .store-image-2 {
+	background-position:-620px -100px
+}
+.packs-icons-small .store-image-3 {
+	background-position:-560px -100px
+}
+.packs-icons-small .store-image-4 {
+	background-position:-680px -100px
+}
+.packs-icons-small .store-image-5 {
+	background-position:-258px -100px
+}
+.packs-icons-small .store-image-7 {
+	background-position:-139px -100px
+}
+.packs-icons-small .store-image-8 {
+	background-position:-919px -100px
+}
+.packs-icons-small .store-image-10 {
+	background-position:-977px -100px
+}
+.packs-icons-small .store-image-11 {
+	background-position:-977px -100px
+}
+.packs-icons-small .store-image-12 {
+	background-position:-977px -100px
+}
+.packs-icons-small .store-image-14 {
+	background-position:-201px -100px
+}
+.packs-icons-small .store-image-15 {
+	background-position:-320px -100px
+}
+.packs-icons-small .store-image-16 {
+	background-position:-499px -100px
+}
+.packs-icons-small .store-image-17 {
+	background-position:-440px -100px
+}
+.packs-icons-small .store-image-18 {
+	background-position:-800px -100px
+}
+.packs-icons-small .store-image-19 {
+	background-position:-740px -100px
+}
+.packs-icons-small .store-image-21 {
+	background-position:-499px -100px
+}
+.packs-icons-small .store-image-23 {
+	background-position:-381px -100px
+}
+.packs-icons-small .store-image-24 {
+	background-position:-16px -100px
+}
+.packs-icons-small .store-image-25 {
+	background-position:-80px -100px
+}
+/*wedding*/
+.bar{padding: 10px; background: rgba(138, 210, 243, 0.4);}
+.find > img{margin-right:25px;}
+.find{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 1px;}
+.find > a{background: #fff; border:1px solid #6CC6F0; border-radius: 4px; padding: 5px 15px; font-size: 12px; color: #6CC6F0; margin-left: 25px; }
+.banner > img{position: relative;}
+.banner .center-block{position: absolute; left: 0px; right: 0px; width: 100%; top: 30%; z-index: 9999; text-align: center;}
+.center-block > h3{font-size: 35px; font-weight: 600; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000;}
+.center-block > p{font-size: 15px; font-weight: 600; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000;}
+.bttn > a{background: #6CC6F0; font-size: 15px; padding: 10px 25px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 70%; margin:auto; margin-top: 25px;}
+.bttn > a:hover{background: #6CC6F0; font-size: 15px; padding: 10px 25px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; letter-spacing: 1px;}
+.center-block > p {margin-top: 15px;}
+.option{background-color: #fff !important; padding: 25px 0px; margin-top: -25px;}
+.option > h3{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px;}
+.display{padding: 70px 0px;}
+.display > h3{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; color: #000;}
+.display > p{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; color: #000}
+.demo > h3{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; color: #000;}
+.demo > p{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; color: #000;}
+.space{width: 100%; height: 25px; float: left;}
+.bttn1 > a{text-align:center; background: #6CC6F0; font-size: 15px; padding: 10px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 70%; margin:auto; margin-top: 25px;}
+.bttn1 > a:hover{text-align:center; background: #6CC6F0; font-size: 15px; padding: 10px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; letter-spacing: 1px;}
+.plan > h5{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; color: #000; position: relative;}
+.plan > h5::before{content: " "; position: absolute; left: 0px; right: 0px; text-align: center; width: 100px; border-bottom: 2px solid #9c9c9c; margin: auto; top: 25px;}
+.plan > p{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;}
+.space_2{width: 100%; height: 25px; float: left; padding: 50px;}
+.space_3{width: 100%; height: 25px; float: left; padding: 50px;}
+.rule{border:1px solid #ddd; margin-top: 35px;}
+.image {display: block; width: 100%; height: auto;}
+.overlay {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.one:hover .overlay {opacity: 1;}
+.text1 {color: #222; background: #fff; padding: 10px 15px;  font-size: 14px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; width: 150px; margin:auto;}
+.text1:hover {text-decoration:none; color: #222; background: #fff; padding: 10px 15px;  font-size: 14px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; width: 150px; margin:auto;}
+
+
+.image1 {display: block; width: 100%; height: auto;}
+.overlay1 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.two:hover .overlay1 {opacity: 1;}
+
+.image2 {display: block; width: 100%; height: auto;}
+.overlay2 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.three:hover .overlay2 {opacity: 1;}
+
+.image3 {display: block; width: 100%; height: auto;}
+.overlay3 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.four:hover .overlay3 {opacity: 1;}
+
+
+.image4 {display: block; width: 100%; height: auto;}
+.overlay4 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.five:hover .overlay4 {opacity: 1;}
+
+.image5 {display: block; width: 100%; height: auto;}
+.overlay5 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.six:hover .overlay5 {opacity: 1;}
+
+.image6 {display: block; width: 100%; height: auto;}
+.overlay6 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.seven:hover .overlay6 {opacity: 1;}
+
+.image7 {display: block; width: 100%; height: auto;}
+.overlay7 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.eight:hover .overlay7 {opacity: 1;}
+
+.image8 {display: block; width: 100%; height: auto;}
+.overlay8 {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #000;}
+.nine:hover .overlay8 {opacity: 1;}
+
+.space_m{height: 25px; float: left; width: 100%;}
+.radio > h2{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 28px; color: #000; position: relative; font-weight: 600;}
+@media(max-width: 768px){
+.banner .center-block {position: relative; left: 0px; right: 0px; width: 100%; top: 30%; z-index: 99; text-align: center;}
+.center-block > h3 {font-size: 25px; font-weight: 600; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000;}
+.bttn > a {background: #6CC6F0; font-size: 15px; padding: 10px 10px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 85%; margin: auto; margin-top: 25px;}
+.find {font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 1px;}
+.find > img {margin-right: 0px;}
+.find > a {background: #fff; border: 1px solid #6CC6F0; border-radius: 4px; padding: 5px 5px; font-size: 12px; color: #6CC6F0; margin-left: 0px;}
+.bttn1 > a {text-align: center; background: #6CC6F0; font-size: 15px; padding: 10px 10px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 80%; margin: auto; margin-top: 25px;}
+}
+.checkbox label:after, .radio label:after {content: ''; display: table; clear: both;}
+.checkbox .cr,.radio .cr {position: relative; display: inline-block; border: 1px solid #a9a9a9; border-radius: 50%; width: 2.5em; height: 2.5em; float: left; margin-right: .5em; background: #20b1aa;}
+.radio .cr {border-radius: 50%;}
+.checkbox .cr .cr-icon,.radio .cr .cr-icon {position: absolute; font-size: 1.5em; line-height: 0; top: 50%; left: 20%;}
+.radio .cr .cr-icon {margin-left: 0.04em;}
+.checkbox label input[type="checkbox"],.radio label input[type="radio"] {display: none;}
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,.radio label input[type="radio"] + .cr > .cr-icon {transform: scale(3) rotateZ(-20deg); opacity: 0; transition: all .3s ease-in;}
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,.radio label input[type="radio"]:checked + .cr > .cr-icon {transform: scale(1) rotateZ(0deg); opacity: 1;}
+.checkbox label input[type="checkbox"]:disabled + .cr,.radio label input[type="radio"]:disabled + .cr {opacity: .5;}
+.opt{background: #ddd; border:1px solid #ccc; margin: 5px 0px;}
+.opt1{background: #efefef; border:1px solid #ccc; margin: 5px 0px;}
+.bttn2{text-align:center; background: #6CC6F0; font-size: 15px; padding: 10px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 190px; margin:auto; margin-top: 25px;}
+.plan{background: #ddd; padding: 70px 0px;}
+.plan > h3{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 600;}
+.bttn3{text-align:center; background: #6CC6F0; font-size: 15px; padding: 10px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 190px; margin-top: 25px;}
+.last > h4{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; color: #000; position: relative; font-weight: 600;}
+.last > p{font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; color: #000; position: relative; font-weight: 600;}
+.trend{padding: 150px 0px;}
+.side_menu{background: #d5f0fe;}
+.side_menu > p{padding:20px 15px; margin-bottom: 0px;}
+.side_menu > p > a{font-size: 12px; color: #000; text-align: left; padding:20px 0px; margin-bottom: 0px; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.side_menu > p > a:hover{font-size: 12px; color: #000; text-align: left; padding:13px 0px; margin-bottom: 0px; text-decoration: none; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.pad_0{padding-left: 0px !important; padding-right: 0px !important;}
+.side_menu > ul{margin: 0px; padding:0px 15px; border-top: 1px solid #56c5ff;}
+.side_menu > ul li{list-style-type: none; font-size: 14px; display: inline-block; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; width: 50%; float: left; padding:25px 0px;}
+.side_menu > ul > li a{ list-style-type: none; font-size: 12px; display: inline-block; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-stacked > li + li { margin-top: 0px;}
+.nav-tabs > li > a {padding: 25px 0px 25px 0px !important; color: #AAAAAA; background-color: #E3F2FD; border: 0px; border-radius: 0px; margin: 0; text-align: left; height: auto; padding-left: 15px !important; overflow: hidden;}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {background-color: #448AFF; color: #FFFFFF; z-index: 99; transition: all 0.5s ease 0s;}
+.nav-tabs > li.active > a {color: #FFFFFF; background-color: #2962FF; box-shadow: 0 0px 5px rgba(0, 0, 0, .6); z-index: 100; text-align: left; padding-left: 15px !important;}
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {color: #FFFFFF; background-color: #2962FF; box-shadow: 0 0px 5px rgba(0, 0, 0, .6); transition: all 0.5s ease 0s;}
+.btn {display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 1px; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); transition: all 0.5s ease 0s;}
+.btn-primary {background-color: #2962FF;}
+.btn-primary:hover, .btn-primary:focus {background-color: #0D47A1;}
+.tab > li{width: 100%;}
+.add_b{padding: 25px 0px; font-size: 15px; color: #fff; font-weight: 500; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.alag1{background:#20b1aa;}
+.alag2{background:#1d948e; text-align: center; text-transform: uppercase;}
+.li_list {font-size: 15px; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 10px 15px;}
+.late{background: transparent; border: none;}
+.late_icon{background: transparent; border: none; color: #000; padding: 25px 0px; text-align: center; font-size: 16px;}
+.late_icon > a{background: transparent; border: none; color: #000; padding: 25px 0px; text-align: center; font-size: 16px;}
+.fa-trash{margin: 0px 25px;}
+.rule1{border:1px solid #ddd; margin: 0px;}
+label:after {display: none;}
+.add_b1{padding: 18.5px 0px; font-size: 15px; color: #fff; font-weight: 500; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+#status{margin-left: 10px;}
+.media{background: #ccc; padding: 15px; padding-bottom:8px; margin: 5px 15px;}
+.fa-heart{background: #fff; padding: 10px; border-radius: 50%; text-align: center}
+.media-body{padding: 5px 0px;}
+#custom-search-form {margin:0; margin-top: 5px; padding: 0; }
+#custom-search-form .search-query {padding-right: 10px; padding-right: 4px \9; padding-left: 10px; padding-left: 4px \9; margin-bottom: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; height: 45px; border: none; border-radius: 40px; overflow: hidden; width: 90%;}
+#custom-search-form button {border: 0; background: none; padding: 2px 5px; margin-top: -5px; position: relative; left: -40px; margin-bottom: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 50%;}
+.search-query:focus + button { z-index: 3;   }
+.intro{background: transparent;}
+.intro,.media-body > h4{padding: 5px;}
+.intro_back{background: url("../images/check.svg");}
+.datetimepicker.datetimepicker-dropdown-bottom-right.dropdown-menu {width: auto !important;}
+.r_more{padding: 9px; text-align: center; background: #fb5828; margin: 30px auto; width: 80%; display: block; margin-bottom: 0px; color: #fff; font-size: 15px;}
+.r_more:hover{padding: 9px; text-align: center; background: #fb5828; margin: 30px auto; width: 80%; display: block; margin-bottom: 0px; color: #fff; font-size: 15px;}
+.acc li{width: 100% !important;}
+.label1{color: #000; margin-top:10px; }
+.color{display: inline !important;}
+.clr{background: #000 !important;}
+.clr1{background: #1891EE !important;}
+.clr2{background: #725239 !important;}
+.clr3{background: linear-gradient(-1deg,#CFA042 0,#EEE4C3 50%,#CFA042 100%) !important;}
+.clr4{background: #C7C9C4 !important;}
+.clr5{background: #1EB53A !important ;}
+.clr6{background: #FDFAD7 !important;}
+.clr7{background: #FD8400 !important;}
+.clr8{background: #FFAED1 !important;}
+.clr9{background: #AF29F6 !important;}
+.clr10{background: #E7302A !important;}
+.clr11{background: linear-gradient(-1deg,#C3C3C3 0,#F7F6F5 50%,#C3C3C3 100%) !important;}
+.clr12{background: #fff !important;}
+.clr13{background: #FFF050 !important;}
+.bttn2 > a{text-align:center; background: #6CC6F0; font-size: 15px; padding: 5px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; letter-spacing: 1px; display: block; width: 100%; margin:auto;}
+.bttn2 > a:hover{text-align:center; background: #6CC6F0; font-size: 15px; padding: 5px 20px; font-size: 15px; font-weight: 400; font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; letter-spacing: 1px;}
+.mar{margin-left:10%; margin-right:10%;}
+.no-pad{padding-right: 0px !important; padding-left: 0px !important;}
+.bar{background: #b9e6e7; text-align: center;}	
+.text_guest{background: #52c1c4;}
+.text_guest >  h3{height: auto;    overflow: hidden;    margin: 0;    line-height: 51px;    color: #fff;}
+.fa-bell{color: #fff;}
+.summary{background: #86d3d5;}
+.summary > a > h3{height: auto;    overflow: hidden;    margin: 0;    line-height: 51px;    color: #fff; font-size: 16px; color: #000; text-align: center;}
+.import{background: #a0dcde;}
+.import > a > h3{height: auto;    overflow: hidden;    margin: 0;    line-height: 51px;    color: #fff; font-size: 16px; color: #000; text-align: center;}
+.export{background: #b9e6e7;}
+.export > a > h3{height: auto;    overflow: hidden;    margin: 0;    line-height: 51px;    color: #fff; font-size: 16px; color: #000; text-align: center;}
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 236px;
+    width: 100%;
+    border-radius: 0;
+    margin-top: 4px;
+}
+
+.btn-select .btn-select-value {
+    padding: 6px 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 34px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+.btn-select .btn-select-arrow {
+    float: right;
+    line-height: 20px;
+    padding: 6px 10px;
+    top: 0;
+}
+
+.btn-select ul {
+    display: none;
+    background-color: white;
+    color: black;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: none !important;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 33px;
+    z-index: 999;
+}
+
+.btn-select ul li {
+    padding: 3px 6px;
+    text-align: left;
+}
+
+.btn-select ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.btn-select ul li.selected {
+    color: white;
+}
+
+/* Default Start */
+.btn-select.btn-default:hover, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #ccc;
+}
+
+.btn-select.btn-default ul li.selected {
+    background-color: #ccc;
+}
+
+.btn-select.btn-default ul, .btn-select.btn-default .btn-select-value {
+    background-color: white;
+    border: #ccc 1px solid;
+}
+
+.btn-select.btn-default:hover, .btn-select.btn-default.active {
+    background-color: #e6e6e6;
+}
+/* Default End */
+
+/* Primary Start */
+.btn-select.btn-primary:hover, .btn-select.btn-primary:active, .btn-select.btn-primary.active {
+    border-color: #286090;
+}
+
+.btn-select.btn-primary ul li.selected {
+    background-color: #2e6da4;
+    color: white;
+}
+
+.btn-select.btn-primary ul {
+    border: #2e6da4 1px solid;
+}
+
+.btn-select.btn-primary .btn-select-value {
+    background-color: #428bca;
+    border: #2e6da4 1px solid;
+}
+
+.btn-select.btn-primary:hover, .btn-select.btn-primary.active {
+    background-color: #286090;
+}
+/* Primary End */
+
+/* Success Start */
+.btn-select.btn-success:hover, .btn-select.btn-success:active, .btn-select.btn-success.active {
+    border-color: #4cae4c;
+}
+
+.btn-select.btn-success ul li.selected {
+    background-color: #4cae4c;
+    color: white;
+}
+
+.btn-select.btn-success ul {
+    border: #4cae4c 1px solid;
+}
+
+.btn-select.btn-success .btn-select-value {
+    background-color: #5cb85c;
+    border: #4cae4c 1px solid;
+}
+
+.btn-select.btn-success:hover, .btn-select.btn-success.active {
+    background-color: #449d44;
+}
+/* Success End */
+
+/* info Start */
+.btn-select.btn-info:hover, .btn-select.btn-info:active, .btn-select.btn-info.active {
+    border-color: #46b8da;
+}
+
+.btn-select.btn-info ul li.selected {
+    background-color: #46b8da;
+    color: white;
+}
+
+.btn-select.btn-info ul {
+    border: #46b8da 1px solid;
+}
+
+.btn-select.btn-info .btn-select-value {
+    background-color: #5bc0de;
+    border: #46b8da 1px solid;
+}
+
+.btn-select.btn-info:hover, .btn-select.btn-info.active {
+    background-color: #269abc;
+}
+/* info End */
+
+/* warning Start */
+.btn-select.btn-warning:hover, .btn-select.btn-warning:active, .btn-select.btn-warning.active {
+    border-color: #eea236;
+}
+
+.btn-select.btn-warning ul li.selected {
+    background-color: #eea236;
+    color: white;
+}
+
+.btn-select.btn-warning ul {
+    border: #eea236 1px solid;
+}
+
+.btn-select.btn-warning .btn-select-value {
+    background-color: #f0ad4e;
+    border: #eea236 1px solid;
+}
+
+.btn-select.btn-warning:hover, .btn-select.btn-warning.active {
+    background-color: #d58512;
+}
+/* warning End */
+
+/* danger Start */
+.btn-select.btn-danger:hover, .btn-select.btn-danger:active, .btn-select.btn-danger.active {
+    border-color: #d43f3a;
+}
+
+.btn-select.btn-danger ul li.selected {
+    background-color: #d43f3a;
+    color: white;
+}
+
+.btn-select.btn-danger ul {
+    border: #d43f3a 1px solid;
+}
+
+.btn-select.btn-danger .btn-select-value {
+    background-color: #d9534f;
+    border: #d43f3a 1px solid;
+}
+
+.btn-select.btn-danger:hover, .btn-select.btn-danger.active {
+    background-color: #c9302c;
+}
+/* danger End */
+
+.btn-select.btn-select-light .btn-select-value {
+    background-color: white;
+    color: black;
+}
+span.multiselect-native-select {
+	position: relative
+}
+span.multiselect-native-select select {
+	border: 0!important;
+	clip: rect(0 0 0 0)!important;
+	height: 1px!important;
+	margin: -1px -1px -1px -3px!important;
+	overflow: hidden!important;
+	padding: 0!important;
+	position: absolute!important;
+	width: 1px!important;
+	left: 50%;
+	top: 30px
+}
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+.multiselect-container .input-group {
+	margin: 5px
+}
+.multiselect-container>li {
+	padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	height: 100%;
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+.multiselect-container>li>a {
+	padding: 0
+}
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 0 3px 30px
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}
+ul.multiselect-container.dropdown-menu{width: auto; min-width: 190px;}
+.add > a{text-align: center; color: #000; line-height: 40px; font-size: 19px;}
+.details{background: #fff; margin-top: 10px; border:1px solid #ccc;}
+.details tr {vertical-align: middle !important;}
+.details th{text-align:center; line-height: 40px; border:2px solid #ccc;}
+.details tr td{text-align:center; padding-left:25px; padding-right: 25px;  border:1px solid #ccc; vertical-align: middle !important; padding-top: 5px; padding-bottom: 5px;}
+.tble{font-size: 18px !important; margin: 0 10px; }
+.add{line-height: 40px;}
+.collect{text-align: center; border: 2px solid #ff6b00; padding: 5px 15px; border-radius: 5px; margin: 15px 0px; display: block; color: #000;}
+.bttn6 > a {background: #000; color: #fff; text-align: center; padding: 5px 15px; display: block; margin: 10px 0px 0px 0px;}
+.import{text-align: center; border:1px solid #ccc }
+.import tr th{background: #08bda0; text-align: center; color: #fff; padding: 10px 1px; border:1px solid #fff;} 
+.import tr td{border:1px solid #fff;}
